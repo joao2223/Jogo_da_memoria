@@ -111,6 +111,7 @@ h1 {
 .jogo {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .imagem_tamanho {
