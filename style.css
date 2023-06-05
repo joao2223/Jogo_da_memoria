@@ -38,13 +38,72 @@ h1 {
     text-align: right;
     color: #EE9430;
     text-align: center;
-    
+
+}
+
+.vitoria {
+   display: flex;
+   justify-content: center;
+}
+
+.mensagem_vitoria {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    background: #15181F;
+    border-radius: 16px;
+    display: none;
+}
+
+.titulo_vitoria {
+    font-family: 'October Crow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: 0.1em;
+    color: #ECC839;
+}
+
+.texto_vitoria {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    width: 80%;
+    color: #FFFFFF;
+}
+
+.botao_vitoria {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    width: 300px;
+    height: 40px;
+    background: #2B0E11;
+    border: 1px solid #EE9430;
+    box-shadow: 0px 0px 8px #B63C00;
+    border-radius: 8px;
+}
+
+.botao_vitoria:hover {
+    cursor: pointer;
 }
 
 .container {
     width: 75%;
     margin: 0 auto;
-    padding-top:2rem ;
+    padding-top: 2rem;
 }
 
 .jogo {
@@ -52,7 +111,7 @@ h1 {
     flex-wrap: wrap;
 }
 
-.imagem_tamanho{
+.imagem_tamanho {
     width: 10rem;
     margin-left: 1rem;
 }
